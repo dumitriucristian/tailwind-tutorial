@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
+
+/*apply dose not support prefixes*/
+.btn{
+    @apply bg-indigo-400 px-5 py-2 rounded-md shadow-xl text-white font-semibold 
+}
+.btn:focus{
+    @apply bg-indigo-500 outline-none shadow-outline
+}
+
+.btn:hover{
+    @apply bg-indigo-600  text-sm
+}
+
 @tailwind utilities;

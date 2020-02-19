@@ -21,3 +21,9 @@
 ```line-server public```
 #respnsove, hover, focus, responsive, active
 Edit the variants section from tailwind.config.js  to obtain hover efects
+#create style utilities with @apply
+in tailwind.css create a new utiliti and @apply desired classes
+#build a run watch script that will watch any css change
+in package-json copy build line from scripts and rename it watch, 
+run ```npm run watch```
+
