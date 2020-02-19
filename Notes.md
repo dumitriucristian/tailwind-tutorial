@@ -19,3 +19,5 @@
 ```Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force;```
 #run live sever
 ```line-server public```
+#respnsove, hover, focus, responsive, active
+Edit the variants section from tailwind.config.js  to obtain hover efects
